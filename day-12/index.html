@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .left{
+            background-color: black;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            left: 0;/*div lai left sid ma rakhxa*/
+        }
+
+        .right{
+            background-color: brown;
+            width: 100px;
+            height: 100px;
+            position: absolute;  /*absolute le div ko normal flow bata nikalera aafule chaheko thauma rakhxa */
+            right: 0; /*div lai right sid ma rakhxa*/
+
+        
+        }
+
+        .center{
+            background-color: rgb(9, 231, 46);
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 50%; /*div lai top ko 50% ma rakhxa*/
+            left: 50%;/*div lai left ko 50% ma rakhxa*/
+            transform: translate(-50%, -50%);/*afnai width ra height ko 50% le div lai center ma rakhxa */
+        }
+
+        .left_bottom{
+            background-color: yellow;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            bottom: 0;/*div lai bottom ma rakhxa- */
+            left: 0;
+        }
+
+
+        .right_bottom{
+            background-color: blue;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            bottom: 0;/*div lai bottom ma rakhxa--> */
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="left"></div>
+
+    <div class="right"></div>
+
+    <div class="center"></div>
+
+    <div class="left_bottom"></div>
+
+    <div class="right_bottom"></div>
+</body>
+</html>
+
+<!-- padding -->
+<!-- yesle text,contain ani border bich gap dinxa , element bich ko space ho -->
+
+<!-- margin -->
+<!-- yesle element haru bich gap dinxa, element bahirako space ho -->
